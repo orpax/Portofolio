@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2&display=swap");
+* {
+  text-transform: none;
+  text-decoration: none;
+}
+
+:root {
+  --main-green: #79dd09;
+  --main-green-rgb-015: rgba(121, 221, 9, 0.1);
+  --main-yellow: #bdbb49;
+  --main-yellow-rgb-015: rgba(189, 187, 73, 0.1);
+  --main-red: #bd150b;
+  --main-red-rgb-015: rgba(189, 21, 11, 0.1);
+  --main-blue: #0076bd;
+  --main-blue-rgb-015: rgba(0, 118, 189, 0.1);
+}
+
+/* This pen */
+body {
+  font-family: "Baloo 2", cursive;
+  font-size: 16px;
+  color: #ffffff;
+  text-rendering: optimizeLegibility;
+  font-weight: initial;
+}
+
+.dark {
+  background: #48464e;
+}
+
+.light {
+  background: #f3f5f7;
+}
+
+.bg-contact {
+  background-color: rgb(65, 64, 64);
+}
+
+.pink {
+  background-color: rgb(54, 53, 53);
+}
+
+.navbar-brand {
+  font-size: 20rem;
+}
+
+.nav-link:hover {
+  padding: 0.5rem;
+  background-color: rgb(55, 60, 60);
+  transition: 0.2s ease-in-out;
+  border-radius: 10px;
+}
+
+.nav-icons:hover {
+  font-size: 3rem;
+  background-color: rgb(55, 60, 60);
+  padding: 0.5rem;
+  border-radius: 10px;
+  transition: 0.2s ease-in-out;
+}
+
+.nav-item .nav-link:hover {
+  color: aliceblue;
+  border-bottom: 1px solid;
+}
+
+.content {
+  color: rgb(0, 0, 0);
+}
+
+.content i {
+  color: rgb(125, 212, 125);
+}
+
+.text-content {
+  margin-top: 3rem;
+}
+
+.skills-content {
+  text-align: center;
+  color: #ffffff;
+}
+
+.skills {
+  color: white;
+  display: flex;
+}
+
+.skills h3 {
+  text-align: center;
+}
+
+.content-card {
+  margin-top: 5rem;
+  display: flex;
+}
+
+.card-body {
+  background-color: #110f16;
+  color: #ffffff;
+}
+
+.card-content a {
+  color: #ffffff;
+}
+
+.card-content {
+  color: #ffffff;
+}
+
+.btn i {
+  color: #ffffff;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.img-w {
+  width: 100px;
+}
+
+@media (max-width = 576px) {
+  .h1 {
+    color: red;
+  }
+}
